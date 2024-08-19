@@ -1,0 +1,55 @@
+.Login{
+    
+    width: 550px;
+    height: 500px;
+    margin-top:5%;
+    margin-left: 30%;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+    background: #dee2e6;
+}
+
+.Login h2{
+    margin: 0;
+    padding: 20px 20px 5px 20px;
+    text-align: center;
+}
+.Login p{
+    text-align: center;
+    color:#343a40 ;
+}
+
+.Login input[type="email"],.Login input[type="password"],.Login input[type="text"]{
+    border: none;
+    outline: none;
+    width: 80%;
+    margin: 40px 40px 5px 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 6px;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px ;
+    color: #343a40;
+    
+}
+
+
+button{
+    width: 20%;
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 16px;
+    border-radius: 6px;
+    color: #dee2e6;
+    background-color: #d63384;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: black;
+    padding-left: 20px;
+}
