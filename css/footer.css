@@ -11,34 +11,34 @@ footer{
     
 
 }
-.container{
+footer .container{
     background-color: #212529;
     margin: auto;
 }
-.row{
+footer .row{
     display: flex;
     flex-wrap: wrap;
     padding: 70px 0;
 
 }
-.col-1{
+footer .col-1{
     width: 20%;
     padding: 0 60px;
 }
-h1{
+footer h1{
     margin-bottom: 20px;
 }
 
-.col-1 h4{
+footer .col-1 h4{
     font-size: 20px;
     text-transform: capitalize;
     margin-bottom: 30px;
     position: relative;
 }
-.col-1 ul li{
+footer .col-1 ul li{
     list-style-type: none;
 }
-.col-1 ul li a{
+footer .col-1 ul li a{
     font-size: 16px;
     color:#f8f9fa;
     text-decoration:none;
@@ -46,11 +46,11 @@ h1{
     padding: 7px; 
     transition: all 0.3s ease;
 }
-.col-1 ul li a:hover{
+footer .col-1 ul li a:hover{
     color: #d63384;
     padding: 10px;
 }
-.social-icons a{
+footer .social-icons a{
     border: 1px solid #f8f9fa;
     color:#f8f9fa;
     display: inline-block;
@@ -61,11 +61,11 @@ h1{
     padding-top: 5px;
     border-radius: 50%;
 }
-.social-icons a:hover{
+footer .social-icons a:hover{
     background-color: #d63384;
 
 }
-side div{
+footer side div{
     color:#f8f9fa ;
     background-color: black;
     text-align: center;
@@ -73,10 +73,10 @@ side div{
     font-size: 15px;
     
 }
-side a{
+footer side a{
     text-decoration: none;
     color: #d63384;
 }
-side a:hover{
+footer side a:hover{
     color:#f8f9fa
 }
