@@ -78,6 +78,29 @@
 .card img{
     width:200px ;
 }
+.card .product-image{
+    position: relative;
+}
+
+.sale {
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    border-top: solid 50px #E72463;
+    border-left: solid 50px #E72463;
+    border-top-left-radius: 1px;
+    border-right: solid 50px transparent;
+    border-bottom: solid 50px transparent;
+    position: absolute;
+  }
+.sale .sale-text{
+    color: white;
+    position: absolute;
+    rotate: -45deg;
+    left: -35px;
+    top: -25px;
+
+  }
 .product-content{
 margin-top: 10px;
 }
