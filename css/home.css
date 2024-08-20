@@ -17,7 +17,13 @@
     width: 100%;
 }
 
-#explore .container {
+#explore .container ,
+#products .container ,
+#offers .container ,
+#news .container ,
+#blogs .container ,
+#subscribe .container ,
+#brands .container {
     padding: 30px;
     width: 1200px;
     margin: 0 auto;
@@ -93,7 +99,8 @@
     font-size: 14px;
 }
 #explore .btn ,
-#products .btn{
+#products .btn ,
+#subscribe .btn{
     background-color: var(--black-color);
     color: var(--white-color);
     padding: 10px 20px;
@@ -107,7 +114,8 @@
 }
 
 #explore .btn:hover ,
-#products .btn:hover{
+#products .btn:hover , 
+#subscribe .btn:hover{
     background-color: var(--pink-color);
     color: var(--white-color);
 }
@@ -117,11 +125,7 @@
     width: 100%;
 }
 
-#products .container {
-    padding: 30px;
-    width: 1200px;
-    margin: 0 auto;
-}
+
 #products .row{
     display: flex;
     margin: 50px auto;
@@ -130,12 +134,14 @@
 #products .container .row .col-{
     margin: 40px;
     text-align: center;
+    height: 420px;
     transition: 0.3s ease-in-out;
     line-height: 1.7;
 }
 #products .container .row .col-:hover{
     transform: scale(1.01);
     cursor: pointer;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
 
@@ -173,9 +179,6 @@
 #products del{
     color: #a3a2a2;
 }
-/* #products .tohide:hover{
-    color: var(--pink-color)
-} */
 
 
 #offers{
@@ -211,8 +214,7 @@
 
 
 
-#news  img ,
-#blogs img{
+#news  img {
     width: 200px;
     height: 200px;
     margin: 40px 170px;
@@ -221,18 +223,12 @@
     transition: 0.3s ease-in-out;
 }
 
-#news img:hover ,
-#blogs img:hover{
+#news img:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
 
-#news .container,
-#blogs .container {
-    padding: 30px;
-    width: 1200px;
-    margin: 0 auto;
-}
+
 #news .col-1,
 #news .col-2{
     width: 48%;
@@ -284,42 +280,134 @@
     text-align: center;
 }
 
-
 #blogs .row{
     margin-top: 50px;
+}
+#blogs .col{
+    margin: 5px auto;
+    width: 60% ;
+    height: 200px;
     background-color: var(--gray-color);
-}
-#blogs .date,
-#blogs .content{
-    color: #414040;
-    font-size: 16px;
-    text-align: center;
-    
-
-}
-
-#blogs .date{
-    color: var(--pink-color);
-    font-size: 16px;
-    font-weight: 500;
-    font-style: italic;
-    margin-top:30px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-#blogs .content:hover{
-    background-color: var(--pink-color);
 }
 
 #blogs img{
-    margin-left: 60px;
+    width: 60px;
+    height: 60px;
+    margin: 70px 20px 0px 0px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    transition: 0.3s ease-in-out;
 }
-#blogs .col-1,
-#blogs .col-2 ,
-#blogs .col-3{
-    width: 30%;
-    height: 100%;
-    margin: 10px;
+#blogs .col .left span{
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: var(--pink-color);
+    color: var(--white-color);
+    padding: 90px 50px;
+}   
+
+#blogs .col .right{
     display: inline-block;
+    height: 200px;
+    margin: -200px 0px 0px 201px;
+    width: calc(100% - 200px);
+    background-color: var(--gray-color);
+    color: var(--black-color);
+    padding-left: 20px;
+}
+
+
+#blogs .col .right:hover{
+    background-color: var(--pink-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+#blogs .col .right h3 ,
+#blogs .col .right span{
+    
+    margin-top: -60px;
+    margin-left: 80px;
+}
+#blogs .col .right h3{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+#subscribe{
+    background-color: var(--gray-color);
+    width: 100%;
+    height: 320px;
+}
+
+#subscribe div{
+    text-align: center;
+    margin-top: 50px;
+}
+#subscribe h2{
+    color: var(--pink-color);
+    text-transform: uppercase;
+    margin-top:0px;
+    text-align: center;
+}
+
+#subscribe input{
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 6px;
+    background-color: var(--gray-color);
+    font-size: 15px;
+    padding-left: 30px;
+}
+#subscribe p{
+    color: #414040;
+    font-size: 16px;
+    margin-top: 20px;
+}
+#subscribe hr{
+    width: 280px;
+    margin: 0 auto 0 380px;
+    border: 1px solid var(--pink-color);
+}
+#subscribe input:focus{
+    outline: none;
+    font-size:17px;
+}
+#subscribe .btn{
+    background-color:#414040;
+}
+
+
+#brands {
+    background-color: var(--gray-color);
+    width: 100%;
+    height: 200px;
+}
+
+
+#brands .col{
+    height: 100%;
+    width: 200px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
     line-height: 1.7;
+}
+#brands img{
+    box-shadow: 0 0 8px #414040;
+    border-radius: 60px;
+}
+
+#brands img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+    border-radius: 0;
 }
