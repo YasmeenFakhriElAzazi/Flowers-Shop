@@ -57,6 +57,7 @@
 
 .get{
     margin: 3% 20% 3% 20%;
+    height:400px;
 }
 .get h2{
     margin-bottom: 20px;
@@ -65,14 +66,21 @@
 
 .get form input{
 
-    width: 50%;
-    height: 50px;
+    width: 100%;
+    height: 40px;
     padding: 5px;
     margin: 10px;
-    background-color: #e9ecef;
+    background-color: #f8f9fa;
     border: none;
 }
 .two{
     display: flex;
-
 }
+.big input[type=text]{
+    height: 120px;
+    padding-bottom: 70px;
+}
+button{
+    margin-left: 10px;
+}
+
