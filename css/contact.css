@@ -1,0 +1,68 @@
+.item{
+    display: flex;
+    margin: 2% 20% 3% 20%;
+    padding: 30px;
+    
+    
+}
+.cards{
+    border: 1px solid rgb(206, 190, 190);
+    margin: 10px;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.ico{
+    border: 1px solid #d63384;
+    color: #d63384;
+    background-color: aliceblue;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+.ico i{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.ico:hover{
+    background-color: #d63384;
+    color: aliceblue;
+}
+
+.item h4{
+    text-align: center;
+    margin-top: 16px;
+}
+.item p{
+    font-size: 13px;
+    color: #2e2e2e;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.get{
+    margin: 3% 20% 3% 20%;
+}
+.get h2{
+    margin-bottom: 20px;
+    
+}
+
+.get form input{
+
+    width: 50%;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #e9ecef;
+    border: none;
+}
+.two{
+    display: flex;
+
+}
