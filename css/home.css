@@ -29,6 +29,7 @@
     margin: 0 auto;
 }
 
+
 #explore .row-1, 
 #explore .row-2 {
     height: 400px;
@@ -95,8 +96,8 @@
     text-transform: uppercase;
 }
 #explore .content{
-    color: #414040;
-    font-size: 14px;
+    color: #414040 !important;
+    font-size: 14px !important;
 }
 #explore .btn ,
 #products .btn ,
@@ -179,7 +180,21 @@
 #products del{
     color: #a3a2a2;
 }
-
+#products .sale {
+    border-top-left-radius: 1px;
+    border-top: solid 35px #E72463;
+    border-left: solid 35px #E72463;
+    border-right: solid 35px transparent;
+    border-bottom: solid 35px transparent;
+    position: absolute;
+}
+#products .sale span{
+    position: absolute;
+    left: -35px;
+    top: -25px;
+    color: white;
+    rotate: -45deg;
+}
 
 #offers{
     width: 100%;
