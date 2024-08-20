@@ -1,0 +1,31 @@
+.story{
+
+    background-color:#f8f9fa ;
+    height: 500px; 
+    text-align: center;
+}
+.story h2{
+    padding-top: 40px;
+    font-family: "Grey Qo",cursive;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #d63384;
+    
+}
+.story div{
+
+    margin-left: 30%;
+    margin-bottom: 40px;
+    width: 40%;
+    height: 60px;
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+}
+.story p{
+
+    margin-left: 25%;
+    width: 50%;
+    line-height: 30px;
+    
+}
