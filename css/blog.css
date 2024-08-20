@@ -1,8 +1,8 @@
 .card{
     box-shadow: 0 4px 8px 0 rgb(0,0,0);
     transition: 0.3s;
-    width: 20rem;
-    height: 360px;
+    width: 800px;
+    height: 400px;
     margin: 10px;
     margin-bottom: -10%;
 }
@@ -41,7 +41,7 @@
     border: 1px solid #343a40;
     width: 70%;
     height: 60px;
-    margin: 0 0 4% 20%;
+    margin: 0 0 4% 15%;
     padding: 20px;
     cursor: pointer;
 }
