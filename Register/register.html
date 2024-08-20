@@ -4,33 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="unchange.css">
-    <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/register.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Lugrasimo&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/91eada0414.js"></script>
 </head>
 <body>
+    <!-- header -->
     <nav>
         <a href="#" class="logo"><b>Flo<span>Sun</span></b></a>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Shop/shop.html">Shop</a></li>
+            <li><a href="../Blog/blog.html">Blog</a></li>
+            <li><a href="../AboutUs/aboutUs.html">About Us</a></li>
+            <li><a href="../ContactUs/contact.html">Contact Us</a></li>
         </ul>
         <div class="icons">
             <a href="#" class="fa-solid fa-cart-shopping"></a>
-            <a href="#" class="fa-solid fa-magnifying-glass"></a>
+            <a href="#" class="fa-solid fa-user links">
+                <ul class="registeration">
+                    <li onclick="window.location.href ='../Register/register.html'">Register</li>
+                    <li onclick="window.location.href ='../Login/login.html'">Login</li>
+                </ul>
+            </a>
             <a href="#" class="fa-solid fa-bars"></a>
         </div>
     </nav>
     <section class="sec">
-        <div><img src="images/breadcrumb.jpg"></div>
+        <div><img src="../images/breadcrumb.jpg"></div>
         <div class="content">
             <div class="log">login-Register</div>
             <p><a href="#">Home > </a>Login-Register</p>
