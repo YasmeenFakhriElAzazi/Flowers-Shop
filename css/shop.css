@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/* first banner */
 .sec{
     position: relative;
     height: 250px;
@@ -58,6 +59,55 @@
     }
    
 }
+
+/* first toolbar */
+
+.filter{
+    border: 1px solid #858686;
+    width: 95%;
+    height: 70px;
+    padding: 25px;
+    cursor: pointer;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+.filter-container{
+    display: flex;
+    justify-content: space-between;
+}
+.filter-container .list{
+    margin-right: 20px;
+    background-color: white;
+    padding: 5px;
+    border: 0px;
+    
+    
+}
+.filter-container .list:focus{
+    border: 1px solid black;
+
+}
+
+.filter-container .list .list-element{
+width: 50px;
+}
+
+.filterization-list{
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-radius: 0px;
+    font-size:  15px;
+    padding: 10px;
+    margin-top: -10px;
+}
+select{
+    margin-bottom: 1px;
+}
+option{
+    margin: 10px;
+}
+/* products */
 .product-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -74,6 +124,21 @@
 }
 .card:hover{
     box-shadow: 3px 3px 10px 3px lightgray;
+    cursor: pointer;
+}
+.fade-in {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+    color:black ;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    color: white;
+}
+.hidden{
+    display: none;
 }
 .card img{
     width:200px ;
@@ -107,35 +172,17 @@ margin-top: 10px;
 .product-content .product-name{
     margin-bottom: 10px;
 }
+.product-content .product-name:hover{
+    color: #d63384;
+}
 .product-content .product-rating{
     margin-bottom: 10px;
 }
-
-/* .bottom-toolbar{
-    border: 1px solid #343a40;
-    width: 70%;
-    height: 60px;
-    margin: 0 0 4% 20%;
-    padding: 20px;
-    cursor: pointer;
+.add{
+    display: none;
 }
-.bottom-toolbar span{
-    margin: 6px;
-    padding: 7px;
-    border-radius: 20%;
-    background-color: #dee2e6;
-    color: black;
-}
-.bottom-toolbar span:hover{
-    color: aliceblue;
-    background-color: #d63384;
-}
-span.o{
-    background-color: #d63384;
-    color: aliceblue;
-} */
 
-
+/* bottom toolbar */
 .bottom-toolbar{
     border: 1px solid #858686;
     width: 95%;
