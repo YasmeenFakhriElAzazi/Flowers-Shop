@@ -21,7 +21,7 @@ nav{
     text-decoration: none;
     font-family: "Poppins", sans-serif;
 }
-span{
+nav a span{
     color: #d63384;
 
 }
