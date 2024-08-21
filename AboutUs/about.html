@@ -9,10 +9,14 @@
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/home.css">
+    <!-- Font Awesome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Lugrasimo&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/91eada0414.js"></script>
+
 </head>
 <body>
     <nav>
@@ -21,7 +25,7 @@
             <li><a href="../index.html">Home</a></li>
             <li><a href="../Shop/shop.html">Shop</a></li>
             <li><a href="../Blog/blog.html">Blog</a></li>
-            <li><a href="../AboutUs/aboutUs.html">About Us</a></li>
+            <li><a href="../AboutUs/about.html">About Us</a></li>
             <li><a href="../ContactUs/contact.html">Contact Us</a></li>
         </ul>
         <div class="icons">
@@ -31,7 +35,7 @@
         </div>
     </nav>
     <section class="sec">
-        <div><img src="images/breadcrumb.jpg"></div>
+        <div><img src="../images/breadcrumb.jpg"></div>
         <div class="content">
             <div class="log">About Us</div>
             <p><a href="#">Home > </a>About Us</p>
@@ -39,8 +43,9 @@
         
     </section>
 
-    <section id="explore">
-        <div class="container">
+
+    <div class="collection">
+        <div class="collection-container">
             <div class="row-1">
                 <div class="col-1">
                     <p class="small-text">Flowers for the</p>
@@ -48,7 +53,7 @@
                     <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam. </p>
-                    <button class="btn">Shop collection</button>
+                    <button class="btn" onclick="window.location.href ='../Shop/shop.html'">Shop collection</button>
                 </div>
                 <div class="col-2">
                 </div>
@@ -62,21 +67,92 @@
                     <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam. </p>
-                    <button class="btn">Shop collection</button>
+                    <button class="btn" onclick="window.location.href ='../Shop/shop.html'">Shop collection</button>
                 </div>
             </div>
         </div>
-    </section>
-
+    </div>
     <div class="story">
         <h2>A little story about us</h2>
         <h1>Our History</h1>
-        <div><b>Captain America: Civil War Christopher Markus and Stephen McFeely see the Hulk as the game over moment.</b></div>
+        <p><strong>Captain America: Civil War Christopher Markus and Stephen McFeely see the Hulk as the game over moment.</strong></p>
         <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus. Phasellus eu rhoncus dolor, vitae scelerisque sapien</p>
     </div>
 
+    <div class="team">
+        <div class="team-container">
+            <div class="text">
+                <h2>The guys behind the curtains</h2>
+                <p>A Team Of Highly-Skilled Experts</p>
+            </div>
+            <div class="members">
+                    <div class="member">
+                        <div class="member-image">
+                            <img src="../images/team/1.jpg">
+                            <div class="social">
+                                <i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff;"></i>
+                                <i class="fa-brands fa-twitter fa-lg" style="color: #ffffff;"></i>
+                                <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h5>Dollie Horton</h5>
+                            <p>Marketing</p>
+                        </div>
+                 
+                    </div>
+                    <div class="member">
+                        <div class="member-image">
+                            <img src="../images/team/2.jpg">
+                            <div class="social">
+                                <i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff;"></i>
+                                <i class="fa-brands fa-twitter fa-lg" style="color: #ffffff;"></i>
+                                <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h5>Stephen Mearsley</h5>
+                            <p>President & CEO</p>
+                        </div>
+                 
+                    </div>
+                    <div class="member">
+                        <div class="member-image">
+                            <img src="../images/team/3.jpg">
+                            <div class="social">
+                                <i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff;"></i>
+                                <i class="fa-brands fa-twitter fa-lg" style="color: #ffffff;"></i>
+                                <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h5>Maggie Strickland</h5>
+                            <p>Financial Services</p>
+                        </div>
+                 
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-container">
+        <div class="wrapper">
+            <div class="icon"><i class="fa-solid fa-arrow-left fa-2xl"  id="left"></i></div>
+                <ul class="tabs-box">
+                    <li class="tab"><img src="../images/brand/1.png"></li>
+                    <li class="tab"><img src="../images/brand/2.png"></li>
+                    <li class="tab"><img src="../images/brand/3.png"></li>
+                    <li class="tab"><img src="../images/brand/4.png"></li>
+                    <li class="tab"><img src="../images/brand/5.png"></li>
+                    <li class="tab"><img src="../images/brand/1.png"></li>
+                    <li class="tab"><img src="../images/brand/2.png"></li>
+                    <li class="tab"><img src="../images/brand/3.png"></li>
+                    <li class="tab"><img src="../images/brand/4.png"></li>
+                    <li class="tab"><img src="../images/brand/5.png"></li>
+                </ul>
+            <div class="icon"><i class="fa-solid fa-arrow-right fa-2xl"  id="right"></i></i></div>
+        </div>
+    </div>
 
-
-
+<script src="about.js"></script>
 </body>
 </html>
