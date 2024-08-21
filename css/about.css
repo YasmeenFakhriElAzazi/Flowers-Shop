@@ -342,3 +342,81 @@ body{
     color: #fff;
     border-color: transparent;
   } 
+.new{
+    margin-top: 78px;
+    padding: 0 50px 78px 50px;
+}  
+.new-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.new-container .new-text{
+    width: 50%;
+}
+.new-container .new-text h3{
+    font-family: "Josefin Slab", serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 0px;
+    color: #000000;
+}
+.new-container .new-text p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+
+}
+.new-container .new-form{
+ display: flex;
+ flex-wrap: wrap;
+ margin: auto;
+ width: 50%;
+}
+.new-container .new-form input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    color: #555555;
+    font-size: 14px;
+    height: 48px;
+    line-height: 48px;
+    max-width: 100%;
+    padding: 0 10px;
+    text-align: left;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-weight: 400;
+    appearance: none;
+    font-family: "Poppins", sans-serif;
+    width:400px ;
+
+}
+.new-container .new-form button{
+    background: #555555;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    cursor: pointer;
+    max-width: 100%;
+    padding: 0 0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    font-family: "Poppins", sans-serif;
+    width: 150px;
+    border-radius: 0;
+    margin-left: -29px;
+}
+
+.new-container .new-form button:hover{
+    background-color: #d63384;
+}
