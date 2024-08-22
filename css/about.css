@@ -10,7 +10,10 @@ body{
     scroll-behavior: smooth;
     font-size: 14px;
 }
+*{
+    font-family: "Poppins", sans-serif;
 
+}
 .log{
     font-family: "Great Vibes", cursive;
     font-size: 30px;
