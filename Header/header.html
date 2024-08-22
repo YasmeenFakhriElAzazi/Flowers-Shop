@@ -10,7 +10,60 @@
             <li><a href="#">Contact Us</a></li>
         </ul>
         <div class="icons">
-            <a href="#" class="fa-solid fa-cart-shopping"></a>
+            <a href="#" class="fa-solid fa-cart-shopping" onclick="toggleMenu()"></a>
+		<div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="../images/f5.jpg">
+                        <a>Odio tortor consequat</a><br>
+                        <div class="kk"><p>1* <span>$98.00</span></p></div>
+
+                    </div>
+                    <div class="user-info">
+                        <img src="../images/f1.jpg">
+                        <a>Odio tortor consequat</a><br>
+                        <div class="kk"><p>1* <span>$98.00</span></p></div>
+
+                    </div>
+                    <div class="user-info">
+                        <img src="../images/f9.jpg">
+                        <a>Odio tortor consequat</a><br>
+                        <div class="kk"><p>1* <span>$98.00</span></p></div>
+
+                    </div>
+                    <hr>
+                    <p class="T"> Total: </p>
+                    <p class="price"> $166.00</p>
+                    <hr>
+
+                <div class="save">
+                    <div class="butt">
+                    <button type="submit">View cart</button>
+                    
+                    </div>
+                    <div class="ton">
+                        <button type="submit">Checkout</button>
+                    </div>
+                </div>
+
+                </div>
+
+            </div>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+		
             <a href="#" class="fa-solid fa-magnifying-glass"></a>
             <a href="#" class="fa-solid fa-bars"></a>
         </div>
@@ -74,6 +127,13 @@
         color: #d63384;
     }
 </style>
+
+
+ <script>
+    let subMenu=document.getElementById("subMenu");
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
 
 <!-- <script type="text/javascript">
     window.addEventListener("scroll",function(){
