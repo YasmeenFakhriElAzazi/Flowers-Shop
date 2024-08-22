@@ -133,12 +133,55 @@ option{
 }
 .card{
     text-align: center;
-    height: 320px;
+    height: 380px;
+    /*for card animation*/
+    position: relative;
+    overflow: hidden;
+}
+/*card animation*/
+.price , .add{
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.price {
+    bottom: 20px;
+    transform: translateY(0);
+    opacity: 1;
+}
+.add {
+    bottom: 20px;
+    transform: translateY(100%);
+    opacity: 0;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.add a {
+    text-decoration: none;
+
 }
 .card:hover{
     box-shadow: 3px 3px 10px 3px lightgray;
     cursor: pointer;
 }
+
+.card:hover .price {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+.card:hover .add {
+    transform: translateY(0);
+    opacity: 1;
+}
+a:visited {
+    color: black; /* Sets the color of visited links */
+}
+.add a:hover{
+    color: #E72463;
+}
+
+/***********************************/
 .fade-in {
     opacity: 1;
     transition: opacity 1s ease-in;
@@ -150,11 +193,10 @@ option{
     transition: opacity 1s ease-out;
     color: white;
 }
-.hidden{
-    display: none;
-}
+
 .card img{
     width:200px ;
+    height: 250px;
 }
 .card .product-image{
     position: relative;
@@ -191,12 +233,15 @@ margin-top: 10px;
 .product-content .product-rating{
     margin-bottom: 10px;
 }
-.add{
+
+.hidden{
     display: none;
 }
 
+
 /* bottom toolbar */
 .bottom-toolbar{
+    margin-top: 20px;
     border: 1px solid #858686;
     width: 95%;
     height: 60px;
