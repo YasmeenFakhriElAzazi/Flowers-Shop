@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 /* first banner */
-.sec{
+/* .sec{
     position: relative;
     height: 250px;
     background-image: url(../images/breadcrumb.jpg);
@@ -12,7 +14,7 @@
     background-blend-mode: lighten;
     background-position:center;
 
-}
+} */
 .content{
     color: black;
     position: absolute;
@@ -20,6 +22,17 @@
     width: 100%;
     text-align: center;
     font-size: 16px;
+}
+.sec div img{
+    height: 270px;
+    width: 100%;
+    opacity: 0.7;
+ }
+
+.log{
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+    font-weight: bold;
 }
 .log b{
     font-family: "Grey Qo",cursive;
