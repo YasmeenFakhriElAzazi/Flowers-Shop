@@ -137,7 +137,7 @@ option{
     right: 0;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
-.price {
+.product-price .price {
     bottom: 20px;
     transform: translateY(0);
     opacity: 1;
@@ -148,6 +148,7 @@ option{
     opacity: 0;
     font-size: 13px;
     letter-spacing: 2px;
+    color: black;
 }
 .add a {
     text-decoration: none;
