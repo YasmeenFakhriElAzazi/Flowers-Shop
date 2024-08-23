@@ -68,10 +68,10 @@ td{
     color: #333333;
 }
 .table table  td i:hover{
-    color: #d63384;
+    color: #E72463;
 }
 .table table  td:nth-child(2):hover{
-    color: #d63384;
+    color: #E72463;
 }
 img{
     width: 177px;
@@ -105,7 +105,7 @@ img{
     transition: 0.4s;
 }
 .cupoun form input:focus{
-    border: 2px solid #d63384;
+    border: 2px solid #E72463;
 }
 .cupoun form button{
     background-color: #000000;
@@ -128,7 +128,7 @@ img{
 
 }
 .cupoun form button:hover{
-    background-color: #d63384;
+    background-color: #E72463;
 }
 .cupoun-container .update button{
     background-color: #000000;
@@ -154,7 +154,7 @@ img{
     width: 20%;
 }
 .cupoun-container .update button:hover{
-    background-color: #d63384;
+    background-color: #E72463;
 }
 .total-price{
     width: 37%;
@@ -205,5 +205,49 @@ font-weight: 100;
     border: 0;
 }
 .check:hover{
-    background-color: #d63384;
+    background-color: #E72463;
 }
+
+/*<td>
+                    <div class="quantity">
+                        <div class="minus"></div>
+                        <div class="counter"></div>
+                        <div class="plus"></div>
+                    </div>
+</td>*/
+/*counter*/
+td .quantity{
+    display: flex;
+    justify-content: center;
+    transition: 0.4s;
+}
+td .quantity .minus:hover , td .quantity .plus:hover{
+    background-color: #E72463;
+    color: white;
+}
+td .quantity .minus{
+    border: 1px solid #c9c9c9;
+    width:20% ;
+    height: 50px;
+    color: black;
+    font-size: 30px;
+}
+td .quantity .counter{
+    border: 1px solid #c9c9c9;
+    width:40% ;
+    height: 50px;
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
+}
+td .quantity .plus{
+    border: 1px solid #c9c9c9;
+    width:20% ;
+    height: 50px;
+    color: black;
+    font-size: 30px;
+}
+
+
+
+
