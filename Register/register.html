@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
 
-    <link rel="stylesheet" href="../css/login.css">
+    <!-- <link rel="stylesheet" href="../css/login.css"> -->
     <link rel="stylesheet" href="../css/register.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,8 +81,8 @@
     <section class="sec">
         <div><img src="../images/breadcrumb.jpg"></div>
         <div class="content">
-            <div class="log" style="font-family: 'Great Vibes', cursive">login-Register</div>
-            <p><a href="#">Home > </a>Login-Register</p>
+            <div class="log" style="font-family: 'Great Vibes', cursive">Register</div>
+            <p><a href="#">Home > </a>Register</p>
         </div>
         
     </section>
@@ -91,26 +91,34 @@
 
 
     <div class="Login">
-        <h2>Create Account</h2>
-        <p>Please Register using account detail bellow.</p>
-        <form>
-            
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="email" placeholder="Enter your email">
-            <input type="password" placeholder="Enter your password">
+        <div class="container">
+            <h2>Create Account</h2>
+            <p>Please Register using account details bellow.</p>
+            <form id="register-form">
+                <div class="div-1">
+                    <label for="fname">First name</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="First name">
+                </div>
+                <div class="div-1">
+                    <label for="lname">Last name</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Last name">
+                </div>
+                <div class="div-1">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="div-1">
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" placeholder="must be at least 8 chars" >
+                </div>
+                <div class="div-1">
+                    <label for="confirmPassword">Confirm Password</label><br>
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
+                </div>
 
-            <div class="option">
-                <label>
-                    <input type="checkbox">Subscribe Our Newsletter
-                </label>
-               
-            </div>
-            
-            <button type="submit">Register</button> <br><br>
-            
-        </form>
-        
+                <input type="submit" value="Register">
+            </form>
+        </div>
     </div>
 
 
@@ -165,7 +173,6 @@
                     <p>Phone: 01234 567 890</p>
                     <p>Email: https://example.com</p>
                 </div>
-               
             </div>
         </div>
         <side>
@@ -177,5 +184,8 @@
     function toggleMenu(){
         subMenu.classList.toggle("open-menu");
     }
+    </script>
+
+    <script src="form-validation.js"></script>
 </body>
 </html>
