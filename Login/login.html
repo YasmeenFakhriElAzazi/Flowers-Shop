@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/register.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Lugrasimo&display=swap" rel="stylesheet">
@@ -95,7 +96,7 @@
         
     </section>
 
-    <div class="Login">
+    <!-- <div class="Login">
         <h2>Login</h2>
         <p>Please login using account detail bellow.</p>
         <form>
@@ -110,11 +111,32 @@
             </div>
             
             <button type="submit"> Login</button> <br><br>
-            <a class="Create" href="#">Create Account</a>
+            <a class="Create" href="../Register/register.html">Create Account</a>
         </form>
         
-    </div>
+    </div> -->
 
+    <div class="Login">
+        <div class="container">
+            <h2>Create Account</h2>
+            <p>Please LogIn using account details bellow.</p>
+            <form id="register-form" >
+                <div class="div-1">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="div-1">
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" placeholder="password must be at least 8 chars" >
+                </div>
+
+                <input type="submit" value="Register">
+            </form>
+
+            <p class="p2"> Do you have an account ? </p>
+            <a class="Create" href="../Register/register.html"> Register </a>
+        </div>
+    </div>
 
 
     <footer class="footer">
@@ -180,6 +202,7 @@
         subMenu.classList.toggle("open-menu");
     }
 
-    
+    </script>
+    <script src="login.js"></script>
 </body>
 </html>
