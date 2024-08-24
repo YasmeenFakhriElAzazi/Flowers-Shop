@@ -105,12 +105,13 @@ nav ul li a:hover{
 /* drop down css */
 .sub-menu-wrap{
     position: absolute;
-    top: 80%;
+    top: 10%;
     right: 10%;
     width: 300px;
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.5s;
+    z-index: 100000;
     
 }
 .sub-menu-wrap.open-menu{
