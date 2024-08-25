@@ -7,7 +7,7 @@
     <title>FloSun - Flowers shop</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/temp.css">
     <link rel="stylesheet" href="../css/contact.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +30,7 @@
         <div class="icons">
            <a href="#" class="fa-solid fa-cart-shopping" onclick="toggleMenu()"></a>
 
-            <div class="sub-menu-wrap" id="subMenu">
+         <div class="sub-menu-wrap" id="subMenu">
                 <div class="sub-menu">
                     <div class="user-info">
                         <img src="../images/f5.jpg">
@@ -55,15 +55,15 @@
                     <p class="price"> $166.00</p>
                     <hr>
 
-                <div class="save">
-                    <div class="butt">
-                    <button type="submit">View cart</button>
-                    
+                    <div class="save">
+                        <!-- <div class="button-zainab-1" > -->
+                        <button type="submit" class="button-zainab-1">View cart</button>
+                        
+                        <!-- </div> -->
+                        <!-- <div class="button-zainab-2"> -->
+                            <button type="submit" class="button-zainab-2">Checkout</button>
+                        <!-- </div> -->
                     </div>
-                    <div class="ton">
-                        <button type="submit">Checkout</button>
-                    </div>
-                </div>
 
                 </div>
 
@@ -209,5 +209,6 @@
     function toggleMenu(){
         subMenu.classList.toggle("open-menu");
     }
+    </script>
 </body>
 </html>

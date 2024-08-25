@@ -105,12 +105,13 @@ nav ul li a:hover{
 /* drop down css */
 .sub-menu-wrap{
     position: absolute;
-    top: 80%;
+    top: 10%;
     right: 10%;
     width: 300px;
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.5s;
+    z-index: 100000;
     
 }
 .sub-menu-wrap.open-menu{
@@ -179,14 +180,14 @@ hr{
 
 
 }
-.save{
+/* .save{
     display: flex;
     
     justify-content: space-between;
     margin-top: 18px;
     
-}
-.butt{
+} */
+/* .butt{
     border: 1px solid black;
     margin-left: 10px;
     width: 80px;
@@ -202,4 +203,20 @@ hr{
     background-color: black;
     border-radius: 10px;
     
+} */
+
+.save .button-zainab-1 ,
+.save .button-zainab-2{
+    width: 100px;
+    height: 40px;
+    background-color: #E72463;
+    margin: 15px;
+    color: white;
+    border: none;
+}
+
+.save .button-zainab-1:hover,
+.save .button-zainab-2:hover{
+    background-color: #000000;
+    cursor: pointer;
 }
