@@ -1,10 +1,8 @@
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 *{
-    font-family: "Great Vibes", cursive;
+    font-family: "Poppins", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -462,11 +460,9 @@
 #header-1 h1,
 #header-2 h1{
     color: var(--pink-color);
-    font-size: 80px;
+    font-size: 190px;
     font-weight: 600;
-    text-transform: uppercase;
-    line-height: 1.7;
-    font-style: italic;
+    line-height: 150px;
     text-align: center;
     padding-top: 200px;
 }
