@@ -36,17 +36,17 @@
 .content p a:hover{
     color: #d63384;
 }
-.table{
+#table{
     margin: 70px auto 20px auto;
     width: 90%;
 }
 
-.table table ,.table table th , .table table td{
+#table table ,#table table th , #table table td{
     border: 1px solid #eceff8;
     border-collapse: collapse;
 
 }
-.table table th:not(.product , .quantity) {
+#table table th:not(.product , .quantity) {
     width: 200px;
     padding: 15px 20px;
     font-weight:bolder;
@@ -67,10 +67,10 @@ td{
     font-size: 15px;
     color: #333333;
 }
-.table table  td i:hover{
+#table table  td i:hover{
     color: #E72463;
 }
-.table table  td:nth-child(2):hover{
+#table table  td:nth-child(2):hover{
     color: #E72463;
 }
 img{
