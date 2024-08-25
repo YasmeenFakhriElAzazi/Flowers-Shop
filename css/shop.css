@@ -169,7 +169,7 @@ option{
     transform: translateY(0);
     opacity: 1;
 }
-a:visited {
+.add a:visited {
     color: black; /* Sets the color of visited links */
 }
 .add a:hover{
